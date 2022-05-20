@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=300px, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Clon de Netflix</title>
+</head>
+
+<body>
+
+    <!--- HEADER ---->
+    <header>
+        <div class="our-story-header">
+            <span class="logo">
+                <img src="img/Logo-Netflix.png">
+            </span>
+            <div class="selection-container">
+                <select class="ui-select" placeholder="lang-switcher">
+                    <option selected lang="es" value="/mx/" data-language="es" data-country="MX">Español</option>
+                    <option lang="en" value="/mx-en/" data-language="en" data-country="MX">English</option>
+                </select>
+            </div>
+            <a href="#" class="btn-login">Iniciar Sesion</a>
+        </div>
+    </header>
+
+    <!--- MAIN ---->
+    <main>
+        <div class="our-story-cards">
+            <div class="card-one">
+                <div class="card-one-background">
+                    <img src="img/MX-es-20220516-popsignuptwoweeks-perspective_alpha_website_medium.jpg"
+                        class="concord-img">
+                </div>
+                <div class="our-story-cards-text">
+                    <h1 class="our-story-card-title">Películas y series ilimitadas y mucho más.</h1>
+                    <h2 class="our-story-card-subtitle">Disfruta donde quieras. Cancela cuando quieras.</h2>
+                    <h3 class="email-form-title">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o
+                        reiniciar tu membresía de Netflix.</h3>
+                    <div class="email-form-lockup">
+                        <div>
+                            <input type="email" placeholder="Email" class="nfTextField" autocomplete="email"
+                                maxlength="50" minlength="5">
+                            <button class="btn-start" type="submit">
+                                <span class="cta-btn-txt">Comenzar</span>
+                                <span class="chevron-right-arrow">
+                                    <svg viewBox="0 0 6 12" xmlns="http://www.w3.org/2000/svg">
+                                        <desc>chevron</desc>
+                                        <path d="M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z" fill="none"
+                                            fill-rule="evenodd">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-two">
+                <div class="card-animation-container">
+                    <div class="our-story-card-animation">
+                        <video class="our-story-card-video" autoplay="" playsinline="" muted="" loop="">
+                            <source
+                                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+                                type="video/mp4">
+                        </video>
+                        <div class="our-story-card-animation-text"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--- FOOTER ---->
+    <footer></footer>
+</body>
+
+</html>
