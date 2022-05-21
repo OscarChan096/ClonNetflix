@@ -60,8 +60,8 @@ a.btn-login{
 }
 
 .card-one{
-    width: auto;
-    height: auto;
+    display: flex;
+    margin-bottom: 14.2%;
 }
 
 .card-one-background{
@@ -124,13 +124,14 @@ input.nfTextField{
     cursor: pointer;
 }
 
-.card-two{
-    margin-top: 14%;
+.card-two, .card-three{
+    top: 0;
     background-color: black;
     padding: 50px 100px 50px 100px;
+    border-top: 7px solid rgb(73, 73, 73);
 }
 
-.card-animation-container{
+.card-animation-container, card-container{
     position: relative;
     display: inline-flex;
     align-items: center;
@@ -154,5 +155,11 @@ input.nfTextField{
 
 .our-story-card-video{
     width: 83%;
+    height: 100%;
+}
+
+.card-img-container{
+    display: flex;
+    width: 48%;
     height: 100%;
 }
