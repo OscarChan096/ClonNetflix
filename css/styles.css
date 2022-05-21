@@ -125,21 +125,34 @@ input.nfTextField{
 }
 
 .card-two{
+    margin-top: 14%;
     background-color: black;
+    padding: 50px 100px 50px 100px;
 }
 
 .card-animation-container{
-    padding-top: 15em;
-    padding-bottom: 5em;
-    padding-left: 5em;
     position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.our-story-img{
-    margin-left: 50%;
+.our-story-card-text{
+    color: white;
+}
+
+.our-story-card-img{
+    z-index: 2;
     width: 45%;
-    height: 45%;
 }
 
-.our-story-card-animation{
+.card-animation{
+    position: absolute;
+    z-index: 1;
+    margin-left: 61%;
+}
+
+.our-story-card-video{
+    width: 83%;
+    height: 100%;
 }
