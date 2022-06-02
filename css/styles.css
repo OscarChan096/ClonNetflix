@@ -131,10 +131,11 @@ input.nfTextField{
     border-top: 7px solid rgb(73, 73, 73);
 }
 
-.card-animation-container, card-container{
+.card-animation-container{
     position: relative;
     display: inline-flex;
     align-items: center;
+    z-index: 0;
     justify-content: space-between;
 }
 
@@ -158,8 +159,23 @@ input.nfTextField{
     height: 100%;
 }
 
-.card-img-container{
+.card-container{
     display: flex;
     width: 48%;
     height: 100%;
+}
+
+.animation{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    left: 0%;
+    bottom: 8%;
+    background-color: #000;
+    border: 2px solid rgba(255,255,255,.25);
+    box-shadow: 0 0 2em 0 #000;
+    border-radius: .75em;
+    padding: .5em .75em;
+    z-index: 1;
 }
